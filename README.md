@@ -3,6 +3,7 @@
 1. vector动态数组
    头文件；#include <vector> 
    定义；vector<类型> arr
+   初始化动态数组大小为k arr.resize(k)
    访问；arr.at()
    尾部添加；arr.push_back()
    指定插入；arr.insert(arr.begin()+位置, 插入值)
