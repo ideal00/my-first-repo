@@ -29,3 +29,5 @@
    创建：dummy = new ListNode(0); dummy->next = head;（给头节点加前驱）；
    遍历：cur = dummy，通过cur->next操作所有节点（统一逻辑）；
    收尾：取出dummy->next作为新头，释放哑节点（避免泄漏）。
+
+5.ASCII 97	a  65  A
